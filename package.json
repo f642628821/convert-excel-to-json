@@ -1,9 +1,10 @@
 {
   "name": "@mecdn/excel-to-json",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "description": "Convert Excel to JSON",
   "homepage": "https://github.com/f642628821/convert-excel-to-json",
   "main": "./lib/convert-excel-to-json.js",
+  "types": "./lib/convert-excel-to-json.d.ts",
   "bin": "./bin/cli.js",
   "author": {
     "name": "Diego ZoracKy",
@@ -31,5 +32,8 @@
   "devDependencies": {
     "chai": "^3.5.0",
     "mocha": "^5.2.0"
+  },
+  "publishConfig": {
+	"registry": "https://registry.npmjs.org/"
   }
 }
